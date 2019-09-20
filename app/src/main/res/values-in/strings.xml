@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MyMovieCatalogue</string>
+    <string name="tab_text_1">Film</string>
+    <string name="tab_text_2">Acara TV</string>
+    <string name="change_language_settings">Ubah Pengaturan Bahasa</string>
+    <string name="poster_movie_tv_show">Poster Film/Acara TV</string>
+    <string name="rating">Skor</string>
+    <string name="overview">Sinopsis</string>
+    <string name="director">Direktur</string>
+    <string name="creator">Kreator</string>
+    <string name="release_date">Tanggal Rilis</string>
+    <string name="runtime">Durasi</string>
+    <string name="episode">Episode</string>
+    <string name="genre">Jenis Film</string>
+</resources>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">MyMovieCatalogue</string>
+    <string name="tab_text_1">Movies</string>
+    <string name="tab_text_2">Tv Shows</string>
+    <string name="change_language_settings">Change Language Settings</string>
+    <string name="poster_movie_tv_show">Poster Movie/Tv_Show</string>
+    <string name="rating">Rating</string>
+    <string name="overview">Overview</string>
+    <string name="director">Director</string>
+    <string name="creator">Creator</string>
+    <string name="release_date">Release Date</string>
+    <string name="runtime">Runtime</string>
+    <string name="episode">Episode</string>
+    <string name="genre">Genre</string>
+
+</resources>

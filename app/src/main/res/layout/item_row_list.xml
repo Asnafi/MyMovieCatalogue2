@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginLeft="8dp"
+    android:layout_marginTop="4dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginBottom="4dp"
+    card_view:cardCornerRadius="12dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:padding="14dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/img_item_poster"
+            android:layout_width="140dp"
+            android:layout_height="200dp"
+            android:src="@drawable/frame_rounded"
+            android:scaleType="fitXY"
+            android:contentDescription="@string/poster_movie_tv_show"
+            tools:src="@color/colorAccent"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="14dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_item_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimaryDark"
+                tools:text="Movie/Tv_Show Title"/>
+
+            <TextView
+                android:id="@+id/tv_item_release"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                tools:text="Release Date"/>
+
+            <TextView
+                android:id="@+id/tv_item_genre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:textStyle="italic"
+                android:textColor="@color/colorPrimary"
+                tools:text="Action, Sci-fi"/>
+
+            <TextView
+                android:id="@+id/tv_item_overview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:ellipsize="end"
+                android:maxLines="3"
+                tools:text="lorem ipsum dolor sit amet" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

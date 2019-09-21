@@ -1,19 +1,20 @@
 package com.tryoasnafi.mymoviecatalogue.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.request.RequestOptions;
+import com.tryoasnafi.mymoviecatalogue.MainActivity;
 import com.tryoasnafi.mymoviecatalogue.R;
 import com.tryoasnafi.mymoviecatalogue.pojo.Movie;
 
 public class DetailMovieActivity extends AppCompatActivity {
-
-    private String title = "MyMovieCatalogue";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -48,13 +49,14 @@ public class DetailMovieActivity extends AppCompatActivity {
         tvRuntime.setText(movie.getRuntime());
         tvGenre.setText(movie.getGenre());
 
-        title = movie.getTitle();
+        String title = movie.getTitle();
         setActionBarTitle(title);
     }
 
     private void setActionBarTitle(String title) {
         if (getSupportActionBar() != null) {
             getSupportActionBar().setTitle(title);
+
         }
     }
 }

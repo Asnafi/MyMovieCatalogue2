@@ -13,8 +13,6 @@ import com.tryoasnafi.mymoviecatalogue.pojo.TvShow;
 
 public class DetailTvShowActivity extends AppCompatActivity {
 
-    private String title = "MyMovieCatalogue";
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -50,7 +48,7 @@ public class DetailTvShowActivity extends AppCompatActivity {
         tvEpisode.setText(tvShow.getEpisode());
         tvGenre.setText(tvShow.getGenre());
 
-        title = tvShow.getTitle();
+        String title = tvShow.getTitle();
         setActionBarTitle(title);
     }
 
